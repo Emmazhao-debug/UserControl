@@ -97,33 +97,11 @@
   },
   {
     "ModuleName": "PCPage/页面1",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\EmmaZhao",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2022-09-28T17:01:45.8609213+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\页面1.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "MasterPCPage/FGC_母版页",
     "ModuleType": 3
-  },
-  {
-    "ModuleName": "UserControlPage/组件1",
-    "State": 2,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\EmmaZhao",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2022-09-28T17:01:45.8609213+08:00",
-    "ModuleType": 31,
-    "ToRemoveFiles": [
-      "UserControlPages\\组件1.json"
-    ]
   },
   {
     "ModuleName": "ServerCommand/等待执行",
@@ -167,25 +145,10 @@
   },
   {
     "ModuleName": "UserControlPage/等待执行命令01",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\EmmaZhao",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2022-09-28T17:01:21.9855667+08:00",
-    "ModuleType": 31,
-    "ToRemoveFiles": [
-      "UserControlPages\\等待执行命令01.json"
-    ]
+    "ModuleType": 31
   },
   {
     "ModuleName": "UserControlPage/等待执行命令",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\EmmaZhao",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2022-09-28T17:01:45.8609213+08:00",
     "ModuleType": 31
   }
 ]
