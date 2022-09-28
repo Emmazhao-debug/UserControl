@@ -145,7 +145,16 @@
   },
   {
     "ModuleName": "UserControlPage/等待执行命令01",
-    "ModuleType": 31
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\EmmaZhao",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2022-09-28T17:03:31.3285851+08:00",
+    "ModuleType": 31,
+    "ToRemoveFiles": [
+      "UserControlPages\\等待执行命令01.json"
+    ]
   },
   {
     "ModuleName": "UserControlPage/等待执行命令",
