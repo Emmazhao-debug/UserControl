@@ -1,0 +1,28 @@
+{
+  "Enabled": true,
+  "Triggers": [
+    {
+      "$type": "Forguncy.ServerCommands.Models.PostRequestTrigger, ServerDesignerCommon",
+      "Permission": {
+        "AllowRoles": [
+          "FGC_LoginUser"
+        ]
+      },
+      "Parameters": [
+        {
+          "Name": "时长"
+        }
+      ]
+    }
+  ],
+  "Commands": [
+    {
+      "$type": "SleepCommand.SleepCommand, SleepCommand",
+      "SleepDuration": {
+        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+        "SerializeProperty": "=时长"
+      }
+    }
+  ],
+  "Name": "等待执行"
+}

@@ -1,0 +1,148 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      }
+    },
+    "Count": 3,
+    "DefaultSize": 30.0
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 60.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 60.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 60.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      }
+    },
+    "Count": 3,
+    "DefaultSize": 60.0
+  },
+  "AttachInfos": {
+    "1,0": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.RequestServerCommand, ServerDesignerCommon",
+            "ServerCommandName": "等待执行",
+            "Parameters": [
+              {
+                "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=组件1!等待执行"
+                },
+                "ParamName": "时长"
+              }
+            ],
+            "RefreshAfterFinish": true,
+            "CheckDataValidation": true
+          },
+          {
+            "$type": "Forguncy.Model.ShowMessageCommand, ServerDesignerCommon",
+            "MessageFormula": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=CONCATENATE(\"Wait to execute command\",组件1!等待执行)"
+            }
+          }
+        ],
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Types": {
+      "Strs": [
+        "Body"
+      ]
+    },
+    "SheetStyle": {
+      "FontFamily": 0
+    }
+  },
+  "Spans": [
+    "1,0,1,3"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.UserControlPage, ServerDesignerCommon",
+    "PropertyDefinitions": [
+      {
+        "Name": "等待执行",
+        "PropertyType": 2,
+        "DefaultValue": 1
+      }
+    ],
+    "CommandDefinitions": [],
+    "PageLoadedCommandList": []
+  },
+  "PrintInfo": {
+    "Margin": {},
+    "PaperSize": {}
+  }
+}//CkzEenvHAQNf3T9VC7g1x3vT4vmn2HdMV3K3muf4JajfvvqFRagYpCg50giKBuha1k/O/xW1IMLsuqnQ9YneImd9zEpFftqMCC7RzVO+QXfXj+k94a8qAte/Wh44Tyr8bchaI76DFD8j8k8TtscWf4hb2YvS+mOvipiKm8bkc1GRlFm1wkn7JhsYFX696SjH1xTHHnA7ZJinIg06wNPFV0VkBNEryv1MZBK5Po8U/pdnqdJdNg7SnKXHonuvrpAO/L1ztHwbn8fZknRzRfWXfjn3uYKZLDo45nyl4xx9qWwilMg7qG6QjwNpkqRt1RFUUmNXmKjdZZbCrVlGWoe1tcuszShDt7na2VqnlA7y3qVpyRJ08P0Dn/ls+fieJCjRsPa1qMWBN8zEM3ifnluFN6hdlTetlF+T7vq6WTI7nyptR736nmjjXZmLZB2r08W42Qdjg20E8vTya7nPa237Nujua2Y3HoWTccshIapO/rNvywcDL6bB3ZdV9itCwdZpsOkMcU2as5Emi46qigb2m8NUCfiVniSn0TI2j0x9NQH6HtPqq1pmK2KxQKdAa4fsFT2A1lB1U7BOq2KUp5dlNjU19zfmBurdFGkX0Ax7LBaaYPyB4cj1CVgPv9i3DthnGaEePgrCCdPde3Jpyt0+Zemb+GMH6SPMgG6oZgOvWbRMfWPRgXd07voT7pwWcCPng/9l1rBqoiQVml6c08uGuVxmsgkxP2zMD7DA1zV/T5MJiUiTr6bAz2U2Atm5KPsMzZ2E5RidWv/UQvD8vJble4Rlb1DJkS9qv+mXQWqr3uh9EDHi3akeaJZQRGEsF9hxRIR04gcX53WHiMiNXbT4duj0XbxWjq6Q2lyFNSojfSHLsJG9t0DyEFba03YDlbv5ysodaou8WKFn0PDsg3Ecgg==|920

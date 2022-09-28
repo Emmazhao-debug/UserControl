@@ -1,0 +1,93 @@
+{
+  "Rows": {
+    "Count": 45
+  },
+  "Cols": {
+    "Count": 54
+  },
+  "AttachInfos": {
+    "1,2": {
+      "CellType": {
+        "$type": "Forguncy.UserControlPageCellType, ServerDesignerCommon",
+        "UserControlPageName": "组件1",
+        "PropertyValues": [
+          {
+            "Name": "等待执行",
+            "Value": 6
+          }
+        ]
+      },
+      "CellComment": {
+        "Comments": "User control get wait value\r\n"
+      }
+    },
+    "5,2": {
+      "CellType": {
+        "$type": "Forguncy.UserControlPageCellType, ServerDesignerCommon",
+        "UserControlPageName": "组件1",
+        "PropertyValues": [
+          {
+            "Name": "等待执行",
+            "Value": 1
+          }
+        ]
+      }
+    },
+    "9,2": {
+      "CellType": {
+        "$type": "Forguncy.UserControlPageCellType, ServerDesignerCommon",
+        "UserControlPageName": "等待执行命令",
+        "PropertyValues": [
+          {
+            "Name": "等待执行",
+            "Value": 5
+          }
+        ]
+      }
+    },
+    "13,2": {
+      "CellType": {
+        "$type": "Forguncy.UserControlPageCellType, ServerDesignerCommon",
+        "UserControlPageName": "等待执行命令",
+        "PropertyValues": [
+          {
+            "Name": "等待执行",
+            "Value": 5
+          },
+          {
+            "Name": "缺省值",
+            "Value": "编辑样式"
+          }
+        ]
+      }
+    }
+  },
+  "StyleDatas": {
+    "Types": {
+      "Strs": [
+        "Body"
+      ]
+    },
+    "SheetStyle": {
+      "FontFamily": 0
+    }
+  },
+  "Spans": [
+    "1,2,3,10",
+    "5,2,3,10",
+    "9,2,3,10",
+    "13,2,3,10"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "AuthorizeInfo": {
+      "VisitMode": 2
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": []
+  },
+  "PrintInfo": {
+    "Margin": {},
+    "PaperSize": {}
+  }
+}//7g3JQ/mXwEqYE8XebtdxmH9fiiuBm6KIlVmfWa/2lycioFZ8GqKtXqJO3eTNjW4VFA7hU+FrMlj7AnqHUcq1pAPs3uc/mPzVAgkv/zQkkZhEMwd/A874bzC0YTKGWMgHqpbYTe6q0XH0J3mW9LwbrbJYPR+mkAiSyVAyGZrwsk3wIoxIHJ+pAkbwQ0so1RQ/XsAUX8CHHJNFM2e+2x7RLafiedxfa7J5AqaATqhimx6+QssFBD2QmKbtLbDAE4p9M3XSX1KW+d/rCV+MLffjU6Xu4bLT5eh9oQ8+Uj5F9Pzm4rkWdrhdDr9FJdo5iPHEGglLU+8d6IkzHb+neLH8CRgf6cFHZw6+2ZCM6QAkBU5WRaHS4rOSghwJYbwSuZHGax+/c+YfOoOLBVqSQVglt0fHCY0LcdIBHa9zoVQ3n1ZYli2F/YhWHnHWGo3PzAgDhoAzBXatPAiXZsaqWYxj7HdUmnxppuE+L5L44jUGZaCgoHiXlX2YAVrE8BH/GvA5TwR14rLzR/JNxhec7FK29Nbb/4gPquVxWV6W1sHTR7qPOWUn9d8tWyc/5Nlwv6CYE4NBQ5iMcZG/OW81EFREZX33EebTi2a8Dgkg8O3VtujIxKewSHHXJ4pKHggPu2ksxZ+Q4eCRtcrAcuxuNFeR5nsOWGbocSR3RmyVS8HyFb4VzcOSc14+1yZxFFAMTGHMvmyZ7bcSV9ln++Gq7g4dldbmA2WFtoX6QN0Cq0Q+BzM9txrlBMru/z08kPGDSN4Ju/YYy7jPUIJ9ObvtROlbvDylwDqMIRq0N7yOWpQqYsGrOtk69HTdRZUetX5v5jq/GFFjqqguHaROcBATTt5Uv1NN1JagYHrbKPPrEcacZXGODelo/RnOtMJ4Idsj4vqRoInrJFxZy1qElVpa4DG+Vw==|920
