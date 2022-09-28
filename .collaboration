@@ -105,7 +105,16 @@
   },
   {
     "ModuleName": "UserControlPage/组件1",
-    "ModuleType": 31
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\EmmaZhao",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2022-09-28T17:01:21.9855667+08:00",
+    "ModuleType": 31,
+    "ToRemoveFiles": [
+      "UserControlPages\\组件1.json"
+    ]
   },
   {
     "ModuleName": "ServerCommand/等待执行",
@@ -149,6 +158,15 @@
   },
   {
     "ModuleName": "UserControlPage/等待执行命令01",
-    "ModuleType": 31
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\EmmaZhao",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2022-09-28T17:01:21.9855667+08:00",
+    "ModuleType": 31,
+    "ToRemoveFiles": [
+      "UserControlPages\\等待执行命令01.json"
+    ]
   }
 ]
