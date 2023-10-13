@@ -1,12 +1,24 @@
 {
+  "Name": "等待执行",
   "Enabled": true,
   "Triggers": [
     {
       "$type": "Forguncy.ServerCommands.Models.PostRequestTrigger, ServerDesignerCommon",
       "Permission": {
-        "AllowRoles": [
-          "FGC_LoginUser"
-        ]
+        "PermissionData": {
+          "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionData, Forguncy.RbacPermission.Core",
+          "permissionResource": {
+            "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionResource, Forguncy.RbacPermission.Core"
+          },
+          "permissionBindings": [
+            {
+              "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionBinding, Forguncy.RbacPermission.Core",
+              "roleNames": [
+                "FGC_LoginUser"
+              ]
+            }
+          ]
+        }
       },
       "Parameters": [
         {
@@ -23,6 +35,5 @@
         "SerializeProperty": "=时长"
       }
     }
-  ],
-  "Name": "等待执行"
+  ]
 }

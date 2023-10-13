@@ -2,8 +2,11 @@
   "IntegrateWithOtherApplication": {
     "Password": "d%(~uoE2wH$k"
   },
+  "ListviewLoadingIndicatorSettings": {},
+  "GlobalProperties": [],
   "WebSitePort": 30623,
   "UserServicePort": 13154,
-  "StartPage": "页面1",
-  "StartDateFiscalYear": 1
+  "ExecConcurrentScheduledTasks": false,
+  "StartDateFiscalYear": 1,
+  "PageLoadingMode": 2
 }

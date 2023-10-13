@@ -7,6 +7,9 @@
   },
   "AttachInfos": {
     "1,2": {
+      "CellComment": {
+        "Comments": "User control get wait value\r\n"
+      },
       "CellType": {
         "$type": "Forguncy.UserControlPageCellType, ServerDesignerCommon",
         "UserControlPageName": "等待执行命令",
@@ -16,9 +19,6 @@
             "Value": 6
           }
         ]
-      },
-      "CellComment": {
-        "Comments": "User control get wait value\r\n"
       }
     },
     "5,2": {
@@ -80,14 +80,25 @@
   ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
-    "AuthorizeInfo": {
-      "VisitMode": 2
+    "PermissionData": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionData, Forguncy.RbacPermission.Core",
+      "permissionResource": {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionResource, Forguncy.RbacPermission.Core"
+      },
+      "permissionBindings": [
+        {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "roleNames": [
+            "FGC_LoginUser"
+          ]
+        }
+      ]
     },
     "RowBreakLines": [],
     "RepeatRangeSettings": []
   },
   "PrintInfo": {
-    "Margin": {},
-    "PaperSize": {}
+    "PaperSize": {},
+    "Margin": {}
   }
-}//ZzXcv1G73hhsRboIcYJG4Oxg8vWHzk1k3sAwAxB+dH/fretou4+K0DRMpL1Wz2j7lQfFejk6N1VNEUCDGruhj7Xh8R1ETOzE3jP4w2+0SwyGab8sICwHi0iVWHi8HqJ4EmABXeg4Ljbyqzo9KVuVJkLa8GTc3HDY/YEmhrOOq+IMFQyRhoOsjVd4sH3aVYB1+h7IkmxYXOFJT5W8U5TCoZNMf0ce2JnZs0H4jUElG/dbV1B8DZod7flNbEP1QTkWp3NrxidhTYx19eIDUx9PwQn/GhR0lE5AY3ZeX2YHklPBXvYHwYZ+y8ATzO6WB77U/Z2KaentvYeuvLzKyR3XsxzgHHBltIITQ/D2hqoPHHCTjBT11HVROrJVsqJL7Pw5ih6xAv7MtG14uGjeqbXBDJL1Y0BU5NKAaSrAp/3whdj5kxUP2Q7N8XdlYuEH6m6OwbYQpc1Jy8zGPuaskWULSjY4TTJNwDBfoyceVyEhMDwqCO6+axVGAq/OFemOYUPO/DBeLT0TDST+lOMLz3erujzROH91lPpaaLoSgaKIQyfGtbO9Pb25udNdN3bAgxSMJFAhyhD1llw3cEl7/BGKitvmo/atmYA197VZSwcKuOT55Sj28wXgr3DVy31wfPtZGnEX4w7VbSygS1BfF5k2pbG8gaQ9abUKl7ifRWqJgFwHehsQLb3ujlX4TgYHEOKq7SoiOniIO/AVCFYIwpBZwdW/BR8sXMTjccUrPzVT+WhOtE5bwW/sFp584tuCOr8TiAhH+OAd5Dd+fVFeEBSXNNRIMFDiUZRabWzy8/8D16dTuaEUqLcFjalLTmget5SwqtG4RFOoIOyfG9c3eYyJ44dXe3wmlzwRh8WqTUR6l8mDi8slz3LIjr5/VsdeNaim8FnKJA9gIsmsOLTwuc/G2Q==|920
+}//u/pw61P790p+Hz5qyy6Ig6M0eotJVWblOh2fRfLVFjGdygiIIuY/rtt59bNwKg1A68u0xmHoQRdwuXJkOW6IOKx3PAXWkMycSkjz0LkV3ViqgMwDE18bZd1SAKm7Xk3TADW+zngCdyexOpiThBDLjKm67ajMGui94C6W4s7S2ad/HYR8ARQG+G/Y8bFaCGQEVqXoToSPhFMgdWj9hskGhoIswLxAl2FR1XI4BkzJyh3ZAYb21G0QE3bq5yw0WbuTpvClQsR7qHPgQW/YiE1ITeORch+ZQ+qErs//g2nHA9Tq0xAjC3BeX8EkDqK2XonvcgANP+UMv/h1ffeIZJwgAYv82xr5YrUepobiA114Zulu63thoUW4fhezN6Gdtpo0E4+QMsRIyl567xQeYDe7OAV05xvnDON1TlrxV+LksZ3SIAM8WNdYTzIHF9jDV/NXm2O7C5ZBDTxVQBqHy8vf11qFqc3aJX905g6vPbDVrwIKKVIq7T1o0TZoFf/wSWlmMF0JCLt4007HIEhKVBp8zoJk79sLj0iGLupfbTBIn0ROXyKU/wIc5q428sFuqYAxbN/P33a0n3amE7MTNqsVg50tFb2n7MskSOnxNgVBuDDXVRtrtXNxhDRoEIYY6eGqio0DF0xTCuTQJSzemR4W8nEPxnR+3IVFW3LNNmWwBHXabwtXE/34yh4Ok1mg/6DO7kVwaHqEolKWzxwtM+nbrKrPzHSYuKs6nMaGPvhgHmVuH+5j9g+/wwz1WiUD6cyX3m1K7G4o1zvbcelV0DNX4JV7SSvAWa3WmQhFd+1RdZgD6wqO5nmbfklrtg+O9V0Q/QNRiMlEtj9TBpuvlVZMxZK5fmIFGemHJItnpBhukSPdnoR/GkHqvPwhib9oyHhWK0iv88+p7AaRUOcKBHGzPg==|920
