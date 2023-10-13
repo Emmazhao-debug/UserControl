@@ -117,15 +117,42 @@
   },
   {
     "ModuleName": "UserControlPage/等待执行命令",
-    "ModuleType": 31
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\EmmaZhao",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2023-10-13T17:42:56.9513008+08:00",
+    "ModuleType": 31,
+    "ToRemoveFiles": [
+      "UserControlPages\\等待执行命令.json"
+    ]
   },
   {
     "ModuleName": "UserControlPage/等待执行命令01",
-    "ModuleType": 31
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\EmmaZhao",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2023-10-13T17:42:56.9513222+08:00",
+    "ModuleType": 31,
+    "ToRemoveFiles": [
+      "UserControlPages\\等待执行命令01.json"
+    ]
   },
   {
     "ModuleName": "ServerCommand/等待执行",
-    "ModuleType": 15
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\EmmaZhao",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2023-10-13T17:42:56.9511831+08:00",
+    "ModuleType": 15,
+    "ToRemoveFiles": [
+      "ServerCommands\\等待执行.json"
+    ]
   },
   {
     "ModuleName": "ApplicationSetting",
