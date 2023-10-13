@@ -197,16 +197,7 @@
   },
   {
     "ModuleName": "PublishConfiguration",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\EmmaZhao",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2023-10-13T17:35:44.1447208+08:00",
-    "ModuleType": 39,
-    "ToRemoveFiles": [
-      "PublishSettingsConfig.json"
-    ]
+    "ModuleType": 39
   },
   {
     "ModuleName": "Plugin",
@@ -218,12 +209,6 @@
   },
   {
     "ModuleName": "PCPage/startuppage",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\EmmaZhao",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2023-10-13T17:38:48.145056+08:00",
     "ModuleType": 1
   }
 ]

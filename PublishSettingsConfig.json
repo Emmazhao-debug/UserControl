@@ -1,1 +1,31 @@
-[]
+[
+  {
+    "Name": "LocalPublish",
+    "ApplicationUrl": "https://xa-dd3-emmazy1/PublishSetting",
+    "PublishSettings": {
+      "IsPrivateServer": true,
+      "ServerName": "xa-dd3-emmazy1",
+      "UserName": "Administrator",
+      "SitePort": 443,
+      "AppName": "PublishSetting",
+      "AppStartPage": "startuppage",
+      "TakeServeronline": true,
+      "Https": true,
+      "PublishRolesToServer": true,
+      "PublishUsersToServer": true,
+      "PublishOrganizationsToServer": true
+    }
+  },
+  {
+    "Name": "remotepublish",
+    "ApplicationUrl": "http://10.32.6.78/testapp",
+    "PublishSettings": {
+      "IsPrivateServer": true,
+      "ServerName": "10.32.6.78",
+      "UserName": "Administrator",
+      "SitePort": 80,
+      "AppName": "testapp",
+      "AppStartPage": "页面1"
+    }
+  }
+]
