@@ -21,7 +21,7 @@
       "$type": "Forguncy.Model.Tables.BindingColumn, ServerDesignerCommon",
       "DatabaseColumnType": "System.Int64",
       "Name": "Integer",
-      "Alias": "AAA",
+      "Alias": "",
       "ColumnType": "System.Int64, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
     },
     {
@@ -65,6 +65,17 @@
   "PrimaryKey": [
     "ID"
   ],
-  "Indexes": [],
+  "Indexes": [
+    {
+      "IndexName": "Table1_Index1",
+      "IndexColumns": [
+        {
+          "ColumnName": "Integer",
+          "TableName": "Table1"
+        }
+      ],
+      "TableName": "Table1"
+    }
+  ],
   "Relations": []
 }
