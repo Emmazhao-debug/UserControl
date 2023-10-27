@@ -209,25 +209,10 @@
   },
   {
     "ModuleName": "PCPage/startuppage",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\EmmaZhao",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2023-10-27T11:41:48.8952479+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\startuppage.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "Table/Table1",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\EmmaZhao",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2023-10-27T11:44:25.3589928+08:00",
     "ModuleType": 7,
     "ExclusiveType": 0
   }
