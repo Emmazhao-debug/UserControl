@@ -117,42 +117,15 @@
   },
   {
     "ModuleName": "UserControlPage/等待执行命令",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\EmmaZhao",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2023-10-13T17:42:56.9513008+08:00",
-    "ModuleType": 31,
-    "ToRemoveFiles": [
-      "UserControlPages\\等待执行命令.json"
-    ]
+    "ModuleType": 31
   },
   {
     "ModuleName": "UserControlPage/等待执行命令01",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\EmmaZhao",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2023-10-13T17:42:56.9513222+08:00",
-    "ModuleType": 31,
-    "ToRemoveFiles": [
-      "UserControlPages\\等待执行命令01.json"
-    ]
+    "ModuleType": 31
   },
   {
     "ModuleName": "ServerCommand/等待执行",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\EmmaZhao",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2023-10-13T17:42:56.9511831+08:00",
-    "ModuleType": 15,
-    "ToRemoveFiles": [
-      "ServerCommands\\等待执行.json"
-    ]
+    "ModuleType": 15
   },
   {
     "ModuleName": "ApplicationSetting",
@@ -216,16 +189,7 @@
   },
   {
     "ModuleName": "DataContectionSet",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\EmmaZhao",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2023-10-13T17:42:38.8303874+08:00",
-    "ModuleType": 25,
-    "ToRemoveFiles": [
-      "DataConnectionSet.json"
-    ]
+    "ModuleType": 25
   },
   {
     "ModuleName": "Upload",
@@ -233,16 +197,7 @@
   },
   {
     "ModuleName": "PublishConfiguration",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\EmmaZhao",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2023-10-13T17:41:35.9358421+08:00",
-    "ModuleType": 39,
-    "ToRemoveFiles": [
-      "PublishSettingsConfig.json"
-    ]
+    "ModuleType": 39
   },
   {
     "ModuleName": "Plugin",
@@ -254,15 +209,6 @@
   },
   {
     "ModuleName": "PCPage/startuppage",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\EmmaZhao",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2023-10-13T17:49:47.1931729+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\startuppage.json"
-    ]
+    "ModuleType": 1
   }
 ]

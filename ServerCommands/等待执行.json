@@ -22,7 +22,8 @@
       },
       "Parameters": [
         {
-          "Name": "时长"
+          "Name": "时长",
+          "Remark": "publish settig\r\nhello world\r\naaaaa ccc"
         }
       ]
     }

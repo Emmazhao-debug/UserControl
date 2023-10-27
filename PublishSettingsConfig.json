@@ -19,6 +19,7 @@
   {
     "Name": "remotepublish",
     "ApplicationUrl": "http://10.32.6.78/testapp",
+    "Remark": "                                          ",
     "PublishSettings": {
       "IsPrivateServer": true,
       "ServerName": "10.32.6.78",
@@ -26,6 +27,23 @@
       "SitePort": 80,
       "AppName": "testapp",
       "AppStartPage": "页面1"
+    }
+  },
+  {
+    "Name": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "ApplicationUrl": "http://localhost/test",
+    "Remark": "                                                                                                     ",
+    "PublishSettings": {
+      "IsPrivateServer": true,
+      "ServerName": "localhost",
+      "UserName": "Administrator",
+      "SitePort": 80,
+      "AppName": "test",
+      "AppStartPage": "",
+      "TakeServeronline": true,
+      "PublishRolesToServer": true,
+      "PublishUsersToServer": true,
+      "PublishOrganizationsToServer": true
     }
   }
 ]
