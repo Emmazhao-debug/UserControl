@@ -209,6 +209,15 @@
   },
   {
     "ModuleName": "PCPage/startuppage",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\EmmaZhao",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2023-10-27T11:35:55.7913576+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\startuppage.json"
+    ]
   }
 ]
