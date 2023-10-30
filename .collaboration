@@ -234,5 +234,45 @@
       "ForguncyDB.sqlite3"
     ],
     "ExclusiveType": 0
+  },
+  {
+    "ModuleName": "MasterPCPage/母版页1",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\EmmaZhao",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2023-10-30T10:13:16.4364551+08:00",
+    "ModuleType": 3
+  },
+  {
+    "ModuleName": "MasterPages/导入文件夹1",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\EmmaZhao",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2023-10-30T10:13:16.4367143+08:00",
+    "ModuleType": 24
+  },
+  {
+    "ModuleName": "PCPage/报表功能演示",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\EmmaZhao",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2023-10-30T10:13:16.4367407+08:00",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "Pages/导入文件夹1",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\EmmaZhao",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2023-10-30T10:13:16.4367621+08:00",
+    "ModuleType": 6
   }
 ]
