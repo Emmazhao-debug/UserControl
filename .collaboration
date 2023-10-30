@@ -145,16 +145,7 @@
   },
   {
     "ModuleName": "Image/fgc_logo_dark.png",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\EmmaZhao",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2023-10-30T10:13:21.6330875+08:00",
-    "ModuleType": 38,
-    "ToRemoveFiles": [
-      "image\\Built-in Images\\fgc_logo_dark.png"
-    ]
+    "ModuleType": 38
   },
   {
     "ModuleName": "Image/fgc_logo_light.png",
@@ -190,16 +181,7 @@
   },
   {
     "ModuleName": "CustomLibrary",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\EmmaZhao",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2023-10-27T12:13:14.4349429+08:00",
-    "ModuleType": 12,
-    "ToRemoveFiles": [
-      "CustomLibraries.json"
-    ]
+    "ModuleType": 12
   },
   {
     "ModuleName": "MapJsonFile",
@@ -219,16 +201,7 @@
   },
   {
     "ModuleName": "Plugin",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\EmmaZhao",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2023-10-30T10:13:55.2973402+08:00",
-    "ModuleType": 40,
-    "ToRemoveFiles": [
-      "Plugin\\処理の待機-9_0_102_0.zip"
-    ]
+    "ModuleType": 40
   },
   {
     "ModuleName": "PublishSetting",
@@ -240,57 +213,7 @@
   },
   {
     "ModuleName": "Table/Table1",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\EmmaZhao",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2023-10-27T11:51:24.3264279+08:00",
     "ModuleType": 7,
-    "ToRemoveFiles": [
-      "Tables\\Table1.json",
-      "ForguncyDB.sqlite3"
-    ],
     "ExclusiveType": 0
-  },
-  {
-    "ModuleName": "MasterPCPage/母版页1",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\EmmaZhao",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2023-10-30T10:13:16.4364551+08:00",
-    "ModuleType": 3
-  },
-  {
-    "ModuleName": "MasterPages/导入文件夹1",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\EmmaZhao",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2023-10-30T10:13:16.4367143+08:00",
-    "ModuleType": 24
-  },
-  {
-    "ModuleName": "PCPage/报表功能演示",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\EmmaZhao",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2023-10-30T10:13:16.4367407+08:00",
-    "ModuleType": 1
-  },
-  {
-    "ModuleName": "Pages/导入文件夹1",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\EmmaZhao",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2023-10-30T10:13:16.4367621+08:00",
-    "ModuleType": 6
   }
 ]
