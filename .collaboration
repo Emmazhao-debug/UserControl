@@ -145,7 +145,16 @@
   },
   {
     "ModuleName": "Image/fgc_logo_dark.png",
-    "ModuleType": 38
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\EmmaZhao",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2023-10-30T10:14:31.3098885+08:00",
+    "ModuleType": 38,
+    "ToRemoveFiles": [
+      "image\\Built-in Images\\fgc_logo_dark.png"
+    ]
   },
   {
     "ModuleName": "Image/fgc_logo_light.png",
