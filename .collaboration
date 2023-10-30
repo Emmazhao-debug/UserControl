@@ -219,7 +219,16 @@
   },
   {
     "ModuleName": "Plugin",
-    "ModuleType": 40
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\EmmaZhao",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2023-10-30T10:13:55.2973402+08:00",
+    "ModuleType": 40,
+    "ToRemoveFiles": [
+      "Plugin\\処理の待機-9_0_102_0.zip"
+    ]
   },
   {
     "ModuleName": "PublishSetting",
